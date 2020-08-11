@@ -1,0 +1,26 @@
+{
+  "name": "webpack-5-federated-modules-min-example",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:jakenorthey/webpack-5-federated-modules-min-example.git",
+  "author": "Jake Northey <jake@creativemines.dev>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "host",
+    "remote"
+  ],
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "html-webpack-plugin": "https://github.com/ScriptedAlchemy/html-webpack-plugin#master",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "5.0.0-beta.25",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start:host": "yarn workspace host start",
+    "start:remote": "yarn workspace remote start"
+  }
+}

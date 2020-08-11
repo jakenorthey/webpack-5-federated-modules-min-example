@@ -1,0 +1,7 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack.mfe.js --port 1111"
+  }
+}
