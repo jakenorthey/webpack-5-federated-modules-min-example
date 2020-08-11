@@ -17,9 +17,11 @@
     "typescript": "^3.9.7",
     "webpack": "5.0.0-beta.25",
     "webpack-cli": "3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "wsrun": "^5.2.1"
   },
   "scripts": {
+    "start": "wsrun -t start",
     "start:host": "yarn workspace host start",
     "start:remote": "yarn workspace remote start"
   }

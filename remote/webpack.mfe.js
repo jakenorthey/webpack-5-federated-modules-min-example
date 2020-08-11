@@ -10,6 +10,7 @@ module.exports = {
   },
   output: {
     path: path.resolve('dist/'),
+    publicPath: 'http://localhost:1110/',
   },
   module: {
     rules: [
@@ -38,12 +39,17 @@ module.exports = {
       name: 'remote',
       library: { type: 'var', name: 'remote' },
       filename: 'remoteEntry.js',
-      exposes: {'./spa': './src/spa.tsx'},
+      exposes: {'./spa': './src/spa'},
       /*shared: {
         react: {},
         'react-dom': {},
       },*/
     }),
   ],
+  devServer: {
+    disableHostCheck: true,
+    open: true,
+    publicPath: 'http://localhost:1110/',
+  }
 }
 
