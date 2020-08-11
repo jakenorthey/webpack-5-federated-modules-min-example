@@ -21,5 +21,8 @@ module.exports = {
       remotes: ['remote'],
     }),
   ],
+  devServer: {
+    open: true,
+  },
 }
 
