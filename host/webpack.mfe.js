@@ -10,6 +10,9 @@ module.exports = {
   },
   output: {
     path: path.resolve('dist/'),
+    filename: 'js/[name].js',
+    chunkFilename: 'js/[name].js',
+    publicPath: '/',
   },
   plugins: [
     new HtmlWebpackPlugin({
