@@ -8,14 +8,14 @@
   "private": true,
   "workspaces": [
     "host",
-    "remote"
+    "dashboard"
   ],
   "devDependencies": {
     "cross-env": "^7.0.2",
     "html-webpack-plugin": "https://github.com/ScriptedAlchemy/html-webpack-plugin#master",
     "ts-loader": "^8.0.2",
     "typescript": "^3.9.7",
-    "webpack": "https://github.com/jakenorthey/webpack#feat/prioritize-eager-shared-module-dependencies",
+    "webpack": "5.9.0",
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "^3.11.0",
     "wsrun": "^5.2.1"
@@ -23,6 +23,6 @@
   "scripts": {
     "start": "wsrun -t start",
     "start:host": "yarn workspace host start",
-    "start:remote": "yarn workspace remote start"
+    "start:remote": "yarn workspace dashboard start"
   }
 }
