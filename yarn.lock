@@ -11,13 +11,6 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@npmcli/move-file@^1.0.1":
-  version "1.0.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@npmcli/move-file/-/move-file-1.0.1.tgz#de103070dac0f48ce49cf6693c23af59c0f70464"
-  integrity sha1-3hAwcNrA9IzknPZpPCOvWcD3BGQ=
-  dependencies:
-    mkdirp "^1.0.4"
-
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/eslint-scope/-/eslint-scope-3.7.0.tgz#4792816e31119ebd506902a482caec4951fabd86"
@@ -27,9 +20,9 @@
     "@types/estree" "*"
 
 "@types/eslint@*":
-  version "7.2.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/eslint/-/eslint-7.2.0.tgz#eb5c5b575237334df24c53195e37b53d66478d7b"
-  integrity sha1-61xbV1I3M03yTFMZXje1PWZHjXs=
+  version "7.2.6"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/eslint/-/eslint-7.2.6.tgz#5e9aff555a975596c03a98b59ecd103decc70c3c"
+  integrity sha1-Xpr/VVqXVZbAOpi1ns0QPezHDDw=
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
@@ -67,10 +60,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/json-schema@*", "@types/json-schema@^7.0.4":
-  version "7.0.5"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/json-schema/-/json-schema-7.0.5.tgz#dcce4430e64b443ba8945f0290fb564ad5bac6dd"
-  integrity sha1-3M5EMOZLRDuolF8CkPtWStW6xt0=
+"@types/json-schema@*", "@types/json-schema@^7.0.6":
+  version "7.0.6"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
+  integrity sha1-9MfsQ+gbMZqYFRFQMXCfJph4kfA=
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -78,9 +71,9 @@
   integrity sha1-PcoOPzOyAPx9ETnAzZbBJoyt/Z0=
 
 "@types/node@*":
-  version "14.0.27"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/node/-/node-14.0.27.tgz#a151873af5a5e851b51b3b065c9e63390a9e0eb1"
-  integrity sha1-oVGHOvWl6FG1GzsGXJ5jOQqeDrE=
+  version "14.14.10"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
+  integrity sha1-WVioLkGGPPxx8jB7N0jjSRugN4U=
 
 "@types/prop-types@*":
   version "15.7.3"
@@ -88,16 +81,16 @@
   integrity sha1-KrDV2i5YFflLC51LldHl8kOrLKc=
 
 "@types/react-dom@^16.9.8":
-  version "16.9.8"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/react-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
-  integrity sha1-/kweEd/GcVVzPfpqplEItJcctCM=
+  version "16.9.10"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/react-dom/-/react-dom-16.9.10.tgz#4485b0bec3d41f856181b717f45fd7831101156f"
+  integrity sha1-RIWwvsPUH4VhgbcX9F/XgxEBFW8=
   dependencies:
-    "@types/react" "*"
+    "@types/react" "^16"
 
-"@types/react@*", "@types/react@^16.9.46":
-  version "16.9.46"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/react/-/react-16.9.46.tgz#f0326cd7adceda74148baa9bff6e918632f5069e"
-  integrity sha1-8DJs163O2nQUi6qb/26RhjL1Bp4=
+"@types/react@^16", "@types/react@^16.9.46":
+  version "16.14.2"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/react/-/react-16.14.2.tgz#85dcc0947d0645349923c04ccef6018a1ab7538c"
+  integrity sha1-hdzAlH0GRTSZI8BMzvYBihq3U4w=
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -108,9 +101,9 @@
   integrity sha1-yz+fdBhp4gzOMw/765JxWQSDiC0=
 
 "@types/yargs@^13.0.0":
-  version "13.0.10"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/yargs/-/yargs-13.0.10.tgz#e77bf3fc73c781d48c2eb541f87c453e321e5f4b"
-  integrity sha1-53vz/HPHgdSMLrVB+HxFPjIeX0s=
+  version "13.0.11"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/@types/yargs/-/yargs-13.0.11.tgz#def2f0c93e4bdf2c61d7e34899b17e34be28d3b1"
+  integrity sha1-3vLwyT5L3yxh1+NImbF+NL4o07E=
   dependencies:
     "@types/yargs-parser" "*"
 
@@ -277,33 +270,25 @@ accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
-acorn@^7.3.0:
-  version "7.4.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/acorn/-/acorn-7.4.0.tgz#e1ad486e6c54501634c6c397c5c121daa383607c"
-  integrity sha1-4a1IbmxUUBY0xsOXxcEh2qODYHw=
-
-aggregate-error@^3.0.0:
-  version "3.0.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/aggregate-error/-/aggregate-error-3.0.1.tgz#db2fe7246e536f40d9b5442a39e117d7dd6a24e0"
-  integrity sha1-2y/nJG5Tb0DZtUQqOeEX191qJOA=
-  dependencies:
-    clean-stack "^2.0.0"
-    indent-string "^4.0.0"
+acorn@^8.0.4:
+  version "8.0.4"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/acorn/-/acorn-8.0.4.tgz#7a3ae4191466a6984eee0fe3407a4f3aa9db8354"
+  integrity sha1-ejrkGRRmpphO7g/jQHpPOqnbg1Q=
 
 ajv-errors@^1.0.0:
   version "1.0.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ajv-errors/-/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
   integrity sha1-81mGrOuRr63sQQL72FAUlQzvpk0=
 
-ajv-keywords@^3.1.0, ajv-keywords@^3.4.1:
+ajv-keywords@^3.1.0, ajv-keywords@^3.5.2:
   version "3.5.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
   integrity sha1-MfKdpatuANHC0yms97WSlhTVAU0=
 
-ajv@^6.1.0, ajv@^6.12.2:
-  version "6.12.3"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ajv/-/ajv-6.12.3.tgz#18c5af38a111ddeb4f2697bd78d68abc1cabd706"
-  integrity sha1-GMWvOKER3etPJpe9eNaKvByr1wY=
+ajv@^6.1.0, ajv@^6.12.5:
+  version "6.12.6"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
+  integrity sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ=
   dependencies:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
@@ -523,6 +508,17 @@ braces@^3.0.1:
   dependencies:
     fill-range "^7.0.1"
 
+browserslist@^4.14.5:
+  version "4.15.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/browserslist/-/browserslist-4.15.0.tgz#3d48bbca6a3f378e86102ffd017d9a03f122bdb0"
+  integrity sha1-PUi7ymo/N46GEC/9AX2aA/EivbA=
+  dependencies:
+    caniuse-lite "^1.0.30001164"
+    colorette "^1.2.1"
+    electron-to-chromium "^1.3.612"
+    escalade "^3.1.1"
+    node-releases "^1.1.67"
+
 buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
@@ -543,29 +539,6 @@ bytes@3.1.0:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha1-9s95M6Ng4FiPqf3oVlHNx/gF0fY=
 
-cacache@^15.0.5:
-  version "15.0.5"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/cacache/-/cacache-15.0.5.tgz#69162833da29170d6732334643c60e005f5f17d0"
-  integrity sha1-aRYoM9opFw1nMjNGQ8YOAF9fF9A=
-  dependencies:
-    "@npmcli/move-file" "^1.0.1"
-    chownr "^2.0.0"
-    fs-minipass "^2.0.0"
-    glob "^7.1.4"
-    infer-owner "^1.0.4"
-    lru-cache "^6.0.0"
-    minipass "^3.1.1"
-    minipass-collect "^1.0.2"
-    minipass-flush "^1.0.5"
-    minipass-pipeline "^1.2.2"
-    mkdirp "^1.0.3"
-    p-map "^4.0.0"
-    promise-inflight "^1.0.1"
-    rimraf "^3.0.2"
-    ssri "^8.0.0"
-    tar "^6.0.2"
-    unique-filename "^1.1.1"
-
 cache-base@^1.0.1:
   version "1.0.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/cache-base/-/cache-base-1.0.1.tgz#0a7f46416831c8b662ee36fe4e7c59d76f666ab2"
@@ -581,6 +554,14 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+call-bind@^1.0.0:
+  version "1.0.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/call-bind/-/call-bind-1.0.0.tgz#24127054bb3f9bdcb4b1fb82418186072f77b8ce"
+  integrity sha1-JBJwVLs/m9y0sfuCQYGGBy93uM4=
+  dependencies:
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.0"
+
 camel-case@^3.0.0:
   version "3.0.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/camel-case/-/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
@@ -593,6 +574,11 @@ camelcase@^5.0.0:
   version "5.3.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
+
+caniuse-lite@^1.0.30001164:
+  version "1.0.30001164"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/caniuse-lite/-/caniuse-lite-1.0.30001164.tgz#5bbfd64ca605d43132f13cc7fdabb17c3036bfdc"
+  integrity sha1-W7/WTKYF1DEy8TzH/auxfDA2v9w=
 
 chalk@^2.3.0, chalk@^2.4.2:
   version "2.4.2"
@@ -622,11 +608,6 @@ chokidar@^2.1.8:
   optionalDependencies:
     fsevents "^1.2.7"
 
-chownr@^2.0.0:
-  version "2.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
-  integrity sha1-Fb++U9LqtM9w8YqM1o6+Wzyx3s4=
-
 chrome-trace-event@^1.0.2:
   version "1.0.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/chrome-trace-event/-/chrome-trace-event-1.0.2.tgz#234090ee97c7d4ad1a2c4beae27505deffc608a4"
@@ -650,11 +631,6 @@ clean-css@^4.2.1:
   integrity sha1-UHtd59l7SO5T2ErbAWD/YhY4D3g=
   dependencies:
     source-map "~0.6.0"
-
-clean-stack@^2.0.0:
-  version "2.2.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
-  integrity sha1-7oRy27Ep5yezHooQpCfe6d/kAIs=
 
 cliui@^5.0.0:
   version "5.0.0"
@@ -685,15 +661,15 @@ color-name@1.1.3:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
+colorette@^1.2.1:
+  version "1.2.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
+  integrity sha1-TQuSEyXBT6+SYzCGpTbbbolWSxs=
+
 commander@^2.19.0, commander@^2.20.0:
   version "2.20.3"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
-
-commondir@^1.0.1:
-  version "1.0.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
-  integrity sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=
 
 component-emitter@^1.2.1:
   version "1.3.0"
@@ -763,9 +739,9 @@ core-util-is@~1.0.0:
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
 cross-env@^7.0.2:
-  version "7.0.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/cross-env/-/cross-env-7.0.2.tgz#bd5ed31339a93a3418ac4f3ca9ca3403082ae5f9"
-  integrity sha1-vV7TEzmpOjQYrE88qco0Awgq5fk=
+  version "7.0.3"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
+  integrity sha1-hlJkspZ33AFbqEGJGJZd0jL8VM8=
   dependencies:
     cross-spawn "^7.0.1"
 
@@ -805,9 +781,9 @@ css-what@2.1:
   integrity sha1-ptdgRXM2X+dGhsPzEcVlE9iChfI=
 
 csstype@^3.0.2:
-  version "3.0.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/csstype/-/csstype-3.0.2.tgz#ee5ff8f208c8cd613b389f7b222c9801ca62b3f7"
-  integrity sha1-7l/48gjIzWE7OJ97IiyYAcpis/c=
+  version "3.0.5"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/csstype/-/csstype-3.0.5.tgz#7fdec6a28a67ae18647c51668a9ff95bb2fa7bb8"
+  integrity sha1-f97GoopnrhhkfFFmip/5W7L6e7g=
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
@@ -817,18 +793,18 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
     ms "2.0.0"
 
 debug@^3.1.1, debug@^3.2.5:
-  version "3.2.6"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
-  integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
+  version "3.2.7"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
+  integrity sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o=
   dependencies:
     ms "^2.1.1"
 
 debug@^4.1.0, debug@^4.1.1:
-  version "4.1.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
-  integrity sha1-O3ImAlUQnGtYnO4FDx1RYTlmR5E=
+  version "4.3.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  integrity sha1-8NIpxQXgxtjEmsVT0bE9wYP2su4=
   dependencies:
-    ms "^2.1.1"
+    ms "2.1.2"
 
 decamelize@^1.2.0:
   version "1.2.0"
@@ -963,9 +939,9 @@ domelementtype@1, domelementtype@^1.3.1:
   integrity sha1-0EjESzew0Qp/Kj1f7j9DM9eQSB8=
 
 domelementtype@^2.0.1:
-  version "2.0.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/domelementtype/-/domelementtype-2.0.1.tgz#1f8bdfe91f5a78063274e803b4bdcedf6e94f94d"
-  integrity sha1-H4vf6R9aeAYydOgDtL3O326U+U0=
+  version "2.1.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/domelementtype/-/domelementtype-2.1.0.tgz#a851c080a6d1c3d94344aed151d99f669edf585e"
+  integrity sha1-qFHAgKbRw9lDRK7RUdmfZp7fWF4=
 
 domhandler@^2.3.0:
   version "2.4.2"
@@ -995,6 +971,11 @@ ee-first@1.1.1:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
+electron-to-chromium@^1.3.612:
+  version "1.3.614"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/electron-to-chromium/-/electron-to-chromium-1.3.614.tgz#ff359e8d2249e2ce859a4c2bc34c22bd2e2eb0a2"
+  integrity sha1-/zWejSJJ4s6Fmkwrw0wivS4usKI=
+
 emoji-regex@^7.0.1:
   version "7.0.3"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/emoji-regex/-/emoji-regex-7.0.3.tgz#933a04052860c85e83c122479c4748a8e4c72156"
@@ -1017,14 +998,6 @@ end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhanced-resolve@5.0.0-beta.10:
-  version "5.0.0-beta.10"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/enhanced-resolve/-/enhanced-resolve-5.0.0-beta.10.tgz#3907c034f8e59446dfa5a89a1fd73db29aa0f246"
-  integrity sha1-OQfANPjllEbfpaiaH9c9spqg8kY=
-  dependencies:
-    graceful-fs "^4.2.0"
-    tapable "^2.0.0-beta.10"
-
 enhanced-resolve@^4.0.0, enhanced-resolve@^4.1.1:
   version "4.3.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/enhanced-resolve/-/enhanced-resolve-4.3.0.tgz#3b806f3bfafc1ec7de69551ef93cca46c1704126"
@@ -1034,15 +1007,23 @@ enhanced-resolve@^4.0.0, enhanced-resolve@^4.1.1:
     memory-fs "^0.5.0"
     tapable "^1.0.0"
 
+enhanced-resolve@^5.3.1:
+  version "5.4.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/enhanced-resolve/-/enhanced-resolve-5.4.0.tgz#a8bcf23b00affac9455cf71efd80844f4054f4dc"
+  integrity sha1-qLzyOwCv+slFXPce/YCET0BU9Nw=
+  dependencies:
+    graceful-fs "^4.2.4"
+    tapable "^2.0.0"
+
 entities@^1.1.1:
   version "1.1.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/entities/-/entities-1.1.2.tgz#bdfa735299664dfafd34529ed4f8522a275fea56"
   integrity sha1-vfpzUplmTfr9NFKe1PhSKidf6lY=
 
 entities@^2.0.0:
-  version "2.0.3"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/entities/-/entities-2.0.3.tgz#5c487e5742ab93c15abb5da22759b8590ec03b7f"
-  integrity sha1-XEh+V0Krk8Fau12iJ1m4WQ7AO38=
+  version "2.1.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/entities/-/entities-2.1.0.tgz#992d3129cf7df6870b96c57858c249a120f8b8b5"
+  integrity sha1-mS0xKc999ocLlsV4WMJJoSD4uLU=
 
 errno@^0.1.3:
   version "0.1.7"
@@ -1051,20 +1032,38 @@ errno@^0.1.3:
   dependencies:
     prr "~1.0.1"
 
-es-abstract@^1.17.0-next.1, es-abstract@^1.17.5:
-  version "1.17.6"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/es-abstract/-/es-abstract-1.17.6.tgz#9142071707857b2cacc7b89ecb670316c3e2d52a"
-  integrity sha1-kUIHFweFeyysx7iey2cDFsPi1So=
+es-abstract@^1.17.0-next.1:
+  version "1.17.7"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/es-abstract/-/es-abstract-1.17.7.tgz#a4de61b2f66989fc7421676c1cb9787573ace54c"
+  integrity sha1-pN5hsvZpifx0IWdsHLl4dXOs5Uw=
   dependencies:
     es-to-primitive "^1.2.1"
     function-bind "^1.1.1"
     has "^1.0.3"
     has-symbols "^1.0.1"
-    is-callable "^1.2.0"
-    is-regex "^1.1.0"
-    object-inspect "^1.7.0"
+    is-callable "^1.2.2"
+    is-regex "^1.1.1"
+    object-inspect "^1.8.0"
     object-keys "^1.1.1"
-    object.assign "^4.1.0"
+    object.assign "^4.1.1"
+    string.prototype.trimend "^1.0.1"
+    string.prototype.trimstart "^1.0.1"
+
+es-abstract@^1.18.0-next.1:
+  version "1.18.0-next.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/es-abstract/-/es-abstract-1.18.0-next.1.tgz#6e3a0a4bda717e5023ab3b8e90bec36108d22c68"
+  integrity sha1-bjoKS9pxflAjqzuOkL7DYQjSLGg=
+  dependencies:
+    es-to-primitive "^1.2.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
+    is-callable "^1.2.2"
+    is-negative-zero "^2.0.0"
+    is-regex "^1.1.1"
+    object-inspect "^1.8.0"
+    object-keys "^1.1.1"
+    object.assign "^4.1.1"
     string.prototype.trimend "^1.0.1"
     string.prototype.trimstart "^1.0.1"
 
@@ -1077,6 +1076,11 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
+escalade@^3.1.1:
+  version "3.1.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
+  integrity sha1-2M/ccACWXFoBdLSoLqpcBVJ0LkA=
+
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -1087,25 +1091,30 @@ escape-string-regexp@^1.0.5:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-scope@^5.0.0:
-  version "5.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/eslint-scope/-/eslint-scope-5.1.0.tgz#d0f971dfe59c69e0cada684b23d49dbf82600ce5"
-  integrity sha1-0Plx3+WcaeDK2mhLI9Sdv4JgDOU=
+eslint-scope@^5.1.1:
+  version "5.1.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
+  integrity sha1-54blmmbLkrP2wfsNUIqrF0hI9Iw=
   dependencies:
-    esrecurse "^4.1.0"
+    esrecurse "^4.3.0"
     estraverse "^4.1.1"
 
-esrecurse@^4.1.0:
-  version "4.2.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/esrecurse/-/esrecurse-4.2.1.tgz#007a3b9fdbc2b3bb87e4879ea19c92fdbd3942cf"
-  integrity sha1-AHo7n9vCs7uH5IeeoZyS/b05Qs8=
+esrecurse@^4.3.0:
+  version "4.3.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/esrecurse/-/esrecurse-4.3.0.tgz#7ad7964d679abb28bee72cec63758b1c5d2c9921"
+  integrity sha1-eteWTWeauyi+5yzsY3WLHF0smSE=
   dependencies:
-    estraverse "^4.1.0"
+    estraverse "^5.2.0"
 
-estraverse@^4.1.0, estraverse@^4.1.1:
+estraverse@^4.1.1:
   version "4.3.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
   integrity sha1-OYrT88WiSUi+dyXoPRGn3ijNvR0=
+
+estraverse@^5.2.0:
+  version "5.2.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/estraverse/-/estraverse-5.2.0.tgz#307df42547e6cc7324d3cf03c155d5cdb8c53880"
+  integrity sha1-MH30JUfmzHMk088DwVXVzbjFOIA=
 
 etag@~1.8.1:
   version "1.8.1"
@@ -1113,11 +1122,11 @@ etag@~1.8.1:
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
 eventemitter3@^4.0.0:
-  version "4.0.4"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/eventemitter3/-/eventemitter3-4.0.4.tgz#b5463ace635a083d018bdc7c917b4c5f10a85384"
-  integrity sha1-tUY6zmNaCD0Bi9x8kXtMXxCoU4Q=
+  version "4.0.7"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha1-Lem2j2Uo1WRO9cWVJqG0oHMGFp8=
 
-events@^3.0.0:
+events@^3.2.0:
   version "3.2.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/events/-/events-3.2.0.tgz#93b87c18f8efcd4202a461aec4dfc0556b639379"
   integrity sha1-k7h8GPjvzUICpGGuxN/AVWtjk3k=
@@ -1286,15 +1295,6 @@ finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-find-cache-dir@^3.3.1:
-  version "3.3.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/find-cache-dir/-/find-cache-dir-3.3.1.tgz#89b33fad4a4670daa94f855f7fbe31d6d84fe880"
-  integrity sha1-ibM/rUpGcNqpT4Vff74x1thP6IA=
-  dependencies:
-    commondir "^1.0.1"
-    make-dir "^3.0.2"
-    pkg-dir "^4.1.0"
-
 find-up@^3.0.0:
   version "3.0.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/find-up/-/find-up-3.0.0.tgz#49169f1d7993430646da61ecc5ae355c21c97b73"
@@ -1302,12 +1302,12 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-find-up@^4.0.0:
-  version "4.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
-  integrity sha1-l6/n1s3AvFkoWEt8jXsW6KmqXRk=
+find-up@^5.0.0:
+  version "5.0.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/find-up/-/find-up-5.0.0.tgz#4c92819ecb7083561e4f4a240a86be5198f536fc"
+  integrity sha1-TJKBnstwg1YeT0okCoa+UZj1Nvw=
   dependencies:
-    locate-path "^5.0.0"
+    locate-path "^6.0.0"
     path-exists "^4.0.0"
 
 findup-sync@^3.0.0:
@@ -1347,13 +1347,6 @@ fresh@0.5.2:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
-fs-minipass@^2.0.0:
-  version "2.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/fs-minipass/-/fs-minipass-2.1.0.tgz#7f5036fdbf12c63c169190cbe4199c852271f9fb"
-  integrity sha1-f1A2/b8SxjwWkZDL5BmchSJx+fs=
-  dependencies:
-    minipass "^3.0.0"
-
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1376,6 +1369,15 @@ get-caller-file@^2.0.1:
   version "2.0.5"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha1-T5RBKoLbMvNuOwuXQfipf+sDH34=
+
+get-intrinsic@^1.0.0:
+  version "1.0.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/get-intrinsic/-/get-intrinsic-1.0.1.tgz#94a9768fcbdd0595a1c9273aacf4c89d075631be"
+  integrity sha1-lKl2j8vdBZWhySc6rPTInQdWMb4=
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
 
 get-stream@^4.0.0:
   version "4.1.0"
@@ -1402,7 +1404,7 @@ glob-to-regexp@^0.4.1:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz#c75297087c851b9a578bd217dd59a92f59fe546e"
   integrity sha1-x1KXCHyFG5pXi9IX3VmpL1n+VG4=
 
-glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
+glob@^7.0.3, glob@^7.1.2, glob@^7.1.3:
   version "7.1.6"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   integrity sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY=
@@ -1461,7 +1463,7 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.2.0:
+graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.2.4:
   version "4.2.4"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha1-Ila94U02MpWMRl68ltxGfKB6Kfs=
@@ -1481,7 +1483,7 @@ has-flag@^4.0.0:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
 
-has-symbols@^1.0.0, has-symbols@^1.0.1:
+has-symbols@^1.0.1:
   version "1.0.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/has-symbols/-/has-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
   integrity sha1-n1IUdYpEGWxAbZvXbOv4HsLdMeg=
@@ -1663,21 +1665,6 @@ import-local@^2.0.0:
     pkg-dir "^3.0.0"
     resolve-cwd "^2.0.0"
 
-imurmurhash@^0.1.4:
-  version "0.1.4"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
-  integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
-
-indent-string@^4.0.0:
-  version "4.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
-  integrity sha1-Yk+PRJfWGbLZdoUx1Y9BIoVNclE=
-
-infer-owner@^1.0.4:
-  version "1.0.4"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/infer-owner/-/infer-owner-1.0.4.tgz#c4cefcaa8e51051c2a40ba2ce8a3d27295af9467"
-  integrity sha1-xM78qo5RBRwqQLos6KPScpWvlGc=
-
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -1765,10 +1752,10 @@ is-buffer@^1.1.5:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha1-76ouqdqg16suoTqXsritUf776L4=
 
-is-callable@^1.1.4, is-callable@^1.2.0:
-  version "1.2.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/is-callable/-/is-callable-1.2.0.tgz#83336560b54a38e35e3a2df7afd0454d691468bb"
-  integrity sha1-gzNlYLVKOONeOi33r9BFTWkUaLs=
+is-callable@^1.1.4, is-callable@^1.2.2:
+  version "1.2.2"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/is-callable/-/is-callable-1.2.2.tgz#c7c6715cd22d4ddb48d3e19970223aceabb080d9"
+  integrity sha1-x8ZxXNItTdtI0+GZcCI6zquwgNk=
 
 is-data-descriptor@^0.1.4:
   version "0.1.4"
@@ -1843,6 +1830,11 @@ is-glob@^4.0.0:
   dependencies:
     is-extglob "^2.1.1"
 
+is-negative-zero@^2.0.0:
+  version "2.0.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/is-negative-zero/-/is-negative-zero-2.0.0.tgz#9553b121b0fac28869da9ed459e20c7543788461"
+  integrity sha1-lVOxIbD6wohp2p7UWeIMdUN4hGE=
+
 is-number@^3.0.0:
   version "3.0.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
@@ -1881,7 +1873,7 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   dependencies:
     isobject "^3.0.1"
 
-is-regex@^1.0.4, is-regex@^1.1.0:
+is-regex@^1.0.4, is-regex@^1.1.1:
   version "1.1.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/is-regex/-/is-regex-1.1.1.tgz#c6f98aacc546f6cec5468a07b7b153ab564a57b9"
   integrity sha1-xvmKrMVG9s7FRooHt7FTq1ZKV7k=
@@ -1941,10 +1933,10 @@ jest-changed-files@^24.9.0:
     execa "^1.0.0"
     throat "^4.0.0"
 
-jest-worker@^26.2.1:
-  version "26.3.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/jest-worker/-/jest-worker-26.3.0.tgz#7c8a97e4f4364b4f05ed8bca8ca0c24de091871f"
-  integrity sha1-fIqX5PQ2S08F7YvKjKDCTeCRhx8=
+jest-worker@^26.6.1:
+  version "26.6.2"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/jest-worker/-/jest-worker-26.6.2.tgz#7f72cbc4d643c365e27b9fd775f9d0eaa9c7a8ed"
+  integrity sha1-f3LLxNZDw2Xie5/XdfnQ6qnHqO0=
   dependencies:
     "@types/node" "*"
     merge-stream "^2.0.0"
@@ -2006,10 +1998,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
-loader-runner@^4.0.0:
-  version "4.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/loader-runner/-/loader-runner-4.0.0.tgz#02abcfd9fe6ff7a5aeb3547464746c4dc6ba333d"
-  integrity sha1-AqvP2f5v96Wus1R0ZHRsTca6Mz0=
+loader-runner@^4.1.0:
+  version "4.1.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/loader-runner/-/loader-runner-4.1.0.tgz#f70bc0c29edbabdf2043e7ee73ccc3fe1c96b42d"
+  integrity sha1-9wvAwp7bq98gQ+fuc8zD/hyWtC0=
 
 loader-utils@^1.0.2, loader-utils@^1.2.3, loader-utils@^1.4.0:
   version "1.4.0"
@@ -2028,22 +2020,22 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-locate-path@^5.0.0:
-  version "5.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
-  integrity sha1-Gvujlq/WdqbUJQTQpno6frn2KqA=
+locate-path@^6.0.0:
+  version "6.0.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/locate-path/-/locate-path-6.0.0.tgz#55321eb309febbc59c4801d931a72452a681d286"
+  integrity sha1-VTIeswn+u8WcSAHZMackUqaB0oY=
   dependencies:
-    p-locate "^4.1.0"
+    p-locate "^5.0.0"
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.4:
-  version "4.17.19"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha1-5I3e2+MLMyF4PFtDAfvTU7weSks=
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.20, lodash@^4.17.4:
+  version "4.17.20"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
 
 loglevel@^1.6.8:
-  version "1.6.8"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/loglevel/-/loglevel-1.6.8.tgz#8a25fb75d092230ecd4457270d80b54e28011171"
-  integrity sha1-iiX7ddCSIw7NRFcnDYC1TigBEXE=
+  version "1.7.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
+  integrity sha1-AF/eL15uRwaPk1/yhXPhJe9y8Zc=
 
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -2056,20 +2048,6 @@ lower-case@^1.1.1:
   version "1.1.4"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
-
-lru-cache@^6.0.0:
-  version "6.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
-  integrity sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
-  dependencies:
-    yallist "^4.0.0"
-
-make-dir@^3.0.2:
-  version "3.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
-  integrity sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8=
-  dependencies:
-    semver "^6.0.0"
 
 map-cache@^0.2.2:
   version "0.2.2"
@@ -2146,12 +2124,17 @@ micromatch@^4.0.0:
     braces "^3.0.1"
     picomatch "^2.0.5"
 
-mime-db@1.44.0, "mime-db@>= 1.43.0 < 2":
+mime-db@1.44.0:
   version "1.44.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/mime-db/-/mime-db-1.44.0.tgz#fa11c5eb0aca1334b4233cb4d52f10c5a6272f92"
   integrity sha1-+hHF6wrKEzS0Izy01S8QxaYnL5I=
 
-mime-types@^2.1.26, mime-types@~2.1.17, mime-types@~2.1.24:
+"mime-db@>= 1.43.0 < 2":
+  version "1.45.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/mime-db/-/mime-db-1.45.0.tgz#cceeda21ccd7c3a745eba2decd55d4b73e7879ea"
+  integrity sha1-zO7aIczXw6dF66LezVXUtz54eeo=
+
+mime-types@^2.1.27, mime-types@~2.1.17, mime-types@~2.1.24:
   version "2.1.27"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/mime-types/-/mime-types-2.1.27.tgz#47949f98e279ea53119f5722e0f34e529bec009f"
   integrity sha1-R5SfmOJ56lMRn1ci4PNOUpvsAJ8=
@@ -2185,42 +2168,6 @@ minimist@^1.2.0, minimist@^1.2.5:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
 
-minipass-collect@^1.0.2:
-  version "1.0.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/minipass-collect/-/minipass-collect-1.0.2.tgz#22b813bf745dc6edba2576b940022ad6edc8c617"
-  integrity sha1-IrgTv3Rdxu26JXa5QAIq1u3Ixhc=
-  dependencies:
-    minipass "^3.0.0"
-
-minipass-flush@^1.0.5:
-  version "1.0.5"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/minipass-flush/-/minipass-flush-1.0.5.tgz#82e7135d7e89a50ffe64610a787953c4c4cbb373"
-  integrity sha1-gucTXX6JpQ/+ZGEKeHlTxMTLs3M=
-  dependencies:
-    minipass "^3.0.0"
-
-minipass-pipeline@^1.2.2:
-  version "1.2.4"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/minipass-pipeline/-/minipass-pipeline-1.2.4.tgz#68472f79711c084657c067c5c6ad93cddea8214c"
-  integrity sha1-aEcveXEcCEZXwGfFxq2Tzd6oIUw=
-  dependencies:
-    minipass "^3.0.0"
-
-minipass@^3.0.0, minipass@^3.1.1:
-  version "3.1.3"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/minipass/-/minipass-3.1.3.tgz#7d42ff1f39635482e15f9cdb53184deebd5815fd"
-  integrity sha1-fUL/HzljVILhX5zbUxhN7r1YFf0=
-  dependencies:
-    yallist "^4.0.0"
-
-minizlib@^2.1.0:
-  version "2.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/minizlib/-/minizlib-2.1.0.tgz#fd52c645301ef09a63a2c209697c294c6ce02cf3"
-  integrity sha1-/VLGRTAe8JpjosIJaXwpTGzgLPM=
-  dependencies:
-    minipass "^3.0.0"
-    yallist "^4.0.0"
-
 mixin-deep@^1.2.0:
   version "1.3.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/mixin-deep/-/mixin-deep-1.3.2.tgz#1120b43dc359a785dce65b55b82e257ccf479566"
@@ -2236,11 +2183,6 @@ mkdirp@^0.5.1, mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.5"
 
-mkdirp@^1.0.3, mkdirp@^1.0.4:
-  version "1.0.4"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
-  integrity sha1-PrXtYmInVteaXw4qIh3+utdcL34=
-
 ms@2.0.0:
   version "2.0.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -2251,7 +2193,7 @@ ms@2.1.1:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha1-MKWGTrPrsKZvLr5tcnrwagnYbgo=
 
-ms@^2.1.1:
+ms@2.1.2, ms@^2.1.1:
   version "2.1.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
@@ -2270,9 +2212,9 @@ multicast-dns@^6.0.1:
     thunky "^1.0.2"
 
 nan@^2.12.1:
-  version "2.14.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
-  integrity sha1-174036MQW5FJTDFHCJMV7/iHSwE=
+  version "2.14.2"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
+  integrity sha1-9TdkAGlRaPTMaUrJOT0MlYXu6hk=
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -2296,7 +2238,7 @@ negotiator@0.6.2:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
 
-neo-async@^2.6.1:
+neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
@@ -2313,10 +2255,15 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
-node-forge@0.9.0:
-  version "0.9.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/node-forge/-/node-forge-0.9.0.tgz#d624050edbb44874adca12bb9a52ec63cb782579"
-  integrity sha1-1iQFDtu0SHStyhK7mlLsY8t4JXk=
+node-forge@^0.10.0:
+  version "0.10.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
+  integrity sha1-Mt6ir7Ppkm8C7lzoeUkCaRpna/M=
+
+node-releases@^1.1.67:
+  version "1.1.67"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/node-releases/-/node-releases-1.1.67.tgz#28ebfcccd0baa6aad8e8d4d8fe4cbc49ae239c12"
+  integrity sha1-KOv8zNC6pqrY6NTY/ky8Sa4jnBI=
 
 normalize-path@^2.1.1:
   version "2.1.1"
@@ -2358,20 +2305,20 @@ object-copy@^0.1.0:
     define-property "^0.2.5"
     kind-of "^3.0.3"
 
-object-inspect@^1.7.0:
-  version "1.8.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object-inspect/-/object-inspect-1.8.0.tgz#df807e5ecf53a609cc6bfe93eac3cc7be5b3a9d0"
-  integrity sha1-34B+Xs9TpgnMa/6T6sPMe+WzqdA=
+object-inspect@^1.8.0:
+  version "1.9.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object-inspect/-/object-inspect-1.9.0.tgz#c90521d74e1127b67266ded3394ad6116986533a"
+  integrity sha1-yQUh104RJ7ZyZt7TOUrWEWmGUzo=
 
 object-is@^1.0.1:
-  version "1.1.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object-is/-/object-is-1.1.2.tgz#c5d2e87ff9e119f78b7a088441519e2eec1573b6"
-  integrity sha1-xdLof/nhGfeLegiEQVGeLuwVc7Y=
+  version "1.1.4"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object-is/-/object-is-1.1.4.tgz#63d6c83c00a43f4cbc9434eb9757c8a5b8565068"
+  integrity sha1-Y9bIPACkP0y8lDTrl1fIpbhWUGg=
   dependencies:
+    call-bind "^1.0.0"
     define-properties "^1.1.3"
-    es-abstract "^1.17.5"
 
-object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
+object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha1-HEfyct8nfzsdrwYWd9nILiMixg4=
@@ -2383,23 +2330,24 @@ object-visit@^1.0.0:
   dependencies:
     isobject "^3.0.0"
 
-object.assign@^4.1.0:
-  version "4.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object.assign/-/object.assign-4.1.0.tgz#968bf1100d7956bb3ca086f006f846b3bc4008da"
-  integrity sha1-lovxEA15Vrs8oIbwBvhGs7xACNo=
+object.assign@^4.1.1:
+  version "4.1.2"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object.assign/-/object.assign-4.1.2.tgz#0ed54a342eceb37b38ff76eb831a0e788cb63940"
+  integrity sha1-DtVKNC7Os3s4/3brgxoOeIy2OUA=
   dependencies:
-    define-properties "^1.1.2"
-    function-bind "^1.1.1"
-    has-symbols "^1.0.0"
-    object-keys "^1.0.11"
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
+    has-symbols "^1.0.1"
+    object-keys "^1.1.1"
 
 object.getownpropertydescriptors@^2.0.3:
-  version "2.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.1.0.tgz#369bf1f9592d8ab89d712dced5cb81c7c5352649"
-  integrity sha1-Npvx+VktiridcS3O1cuBx8U1Jkk=
+  version "2.1.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.1.1.tgz#0dfda8d108074d9c563e80490c883b6661091544"
+  integrity sha1-Df2o0QgHTZxWPoBJDIg7ZmEJFUQ=
   dependencies:
+    call-bind "^1.0.0"
     define-properties "^1.1.3"
-    es-abstract "^1.17.0-next.1"
+    es-abstract "^1.18.0-next.1"
 
 object.pick@^1.3.0:
   version "1.3.0"
@@ -2451,7 +2399,7 @@ p-finally@^1.0.0:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
 
-p-limit@^2.0.0, p-limit@^2.2.0:
+p-limit@^2.0.0:
   version "2.3.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
   integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
@@ -2459,11 +2407,11 @@ p-limit@^2.0.0, p-limit@^2.2.0:
     p-try "^2.0.0"
 
 p-limit@^3.0.2:
-  version "3.0.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/p-limit/-/p-limit-3.0.2.tgz#1664e010af3cadc681baafd3e2a437be7b0fb5fe"
-  integrity sha1-FmTgEK88rcaBuq/T4qQ3vnsPtf4=
+  version "3.1.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/p-limit/-/p-limit-3.1.0.tgz#e1daccbe78d0d1388ca18c64fea38e3e57e3706b"
+  integrity sha1-4drMvnjQ0TiMoYxk/qOOPlfjcGs=
   dependencies:
-    p-try "^2.0.0"
+    yocto-queue "^0.1.0"
 
 p-locate@^3.0.0:
   version "3.0.0"
@@ -2472,24 +2420,17 @@ p-locate@^3.0.0:
   dependencies:
     p-limit "^2.0.0"
 
-p-locate@^4.1.0:
-  version "4.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/p-locate/-/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"
-  integrity sha1-o0KLtwiLOmApL2aRkni3wpetTwc=
+p-locate@^5.0.0:
+  version "5.0.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/p-locate/-/p-locate-5.0.0.tgz#83c8315c6785005e3bd021839411c9e110e6d834"
+  integrity sha1-g8gxXGeFAF470CGDlBHJ4RDm2DQ=
   dependencies:
-    p-limit "^2.2.0"
+    p-limit "^3.0.2"
 
 p-map@^2.0.0:
   version "2.1.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/p-map/-/p-map-2.1.0.tgz#310928feef9c9ecc65b68b17693018a665cea175"
   integrity sha1-MQko/u+cnsxltosXaTAYpmXOoXU=
-
-p-map@^4.0.0:
-  version "4.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/p-map/-/p-map-4.0.0.tgz#bb2f95a5eda2ec168ec9274e06a747c3e2904d2b"
-  integrity sha1-uy+Vpe2i7BaOySdOBqdHw+KQTSs=
-  dependencies:
-    aggregate-error "^3.0.0"
 
 p-retry@^3.0.1:
   version "3.0.1"
@@ -2599,12 +2540,12 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-pkg-dir@^4.1.0, pkg-dir@^4.2.0:
-  version "4.2.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
-  integrity sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM=
+pkg-dir@^5.0.0:
+  version "5.0.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/pkg-dir/-/pkg-dir-5.0.0.tgz#a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
+  integrity sha1-oC1q6+a6EzqSj3Suwguv3+a452A=
   dependencies:
-    find-up "^4.0.0"
+    find-up "^5.0.0"
 
 portfinder@^1.0.26:
   version "1.0.28"
@@ -2621,22 +2562,17 @@ posix-character-classes@^0.1.0:
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
 pretty-error@^2.1.1:
-  version "2.1.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/pretty-error/-/pretty-error-2.1.1.tgz#5f4f87c8f91e5ae3f3ba87ab4cf5e03b1a17f1a3"
-  integrity sha1-X0+HyPkeWuPzuoerTPXgOxoX8aM=
+  version "2.1.2"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/pretty-error/-/pretty-error-2.1.2.tgz#be89f82d81b1c86ec8fdfbc385045882727f93b6"
+  integrity sha1-von4LYGxyG7I/fvDhQRYgnJ/k7Y=
   dependencies:
-    renderkid "^2.0.1"
-    utila "~0.4"
+    lodash "^4.17.20"
+    renderkid "^2.0.4"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
-
-promise-inflight@^1.0.1:
-  version "1.0.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
-  integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
 prop-types@^15.6.2:
   version "15.7.2"
@@ -2689,9 +2625,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha1-YOWl/WSn+L+k0qsu1v30yFutFU4=
+  version "2.2.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha1-M0WUG0FTy50ILY7uTNogFqmu9/Y=
 
 randombytes@^2.1.0:
   version "2.1.0"
@@ -2716,9 +2652,9 @@ raw-body@2.4.0:
     unpipe "1.0.0"
 
 react-dom@^16.13.1:
-  version "16.13.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
-  integrity sha1-wb03MxoEhsB47lTEdAcgmTsuDn8=
+  version "16.14.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha1-etg47Cmnd/s8dcOhkPZhz5Kri4k=
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -2731,9 +2667,9 @@ react-is@^16.8.1:
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
 react@^16.13.1:
-  version "16.13.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
-  integrity sha1-LoGIIvGpdDEiwGPWQQ2FweOv5I4=
+  version "16.14.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha1-lNd23dCqo32j7aj8W2sYpMmjEU0=
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -2796,16 +2732,16 @@ remove-trailing-separator@^1.0.1:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renderkid@^2.0.1:
-  version "2.0.3"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/renderkid/-/renderkid-2.0.3.tgz#380179c2ff5ae1365c522bf2fcfcff01c5b74149"
-  integrity sha1-OAF5wv9a4TZcUivy/Pz/AcW3QUk=
+renderkid@^2.0.4:
+  version "2.0.4"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/renderkid/-/renderkid-2.0.4.tgz#d325e532afb28d3f8796ffee306be8ffd6fc864c"
+  integrity sha1-0yXlMq+yjT+Hlv/uMGvo/9b8hkw=
   dependencies:
     css-select "^1.1.0"
     dom-converter "^0.2"
     htmlparser2 "^3.3.0"
+    lodash "^4.17.20"
     strip-ansi "^3.0.0"
-    utila "^0.4.0"
 
 repeat-element@^1.1.2:
   version "1.1.3"
@@ -2874,13 +2810,6 @@ rimraf@^2.6.3:
   dependencies:
     glob "^7.1.3"
 
-rimraf@^3.0.2:
-  version "3.0.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
-  integrity sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho=
-  dependencies:
-    glob "^7.1.3"
-
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -2920,14 +2849,14 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
-schema-utils@^2.5.0, schema-utils@^2.6.6:
-  version "2.7.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/schema-utils/-/schema-utils-2.7.0.tgz#17151f76d8eae67fbbf77960c33c676ad9f4efc7"
-  integrity sha1-FxUfdtjq5n+793lgwzxnatn078c=
+schema-utils@^3.0.0:
+  version "3.0.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/schema-utils/-/schema-utils-3.0.0.tgz#67502f6aa2b66a2d4032b4279a2944978a0913ef"
+  integrity sha1-Z1AvaqK2ai1AMrQnmilEl4oJE+8=
   dependencies:
-    "@types/json-schema" "^7.0.4"
-    ajv "^6.12.2"
-    ajv-keywords "^3.4.1"
+    "@types/json-schema" "^7.0.6"
+    ajv "^6.12.5"
+    ajv-keywords "^3.5.2"
 
 select-hose@^2.0.0:
   version "2.0.0"
@@ -2935,11 +2864,11 @@ select-hose@^2.0.0:
   integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
 
 selfsigned@^1.10.7:
-  version "1.10.7"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/selfsigned/-/selfsigned-1.10.7.tgz#da5819fd049d5574f28e88a9bcc6dbc6e6f3906b"
-  integrity sha1-2lgZ/QSdVXTyjoipvMbbxubzkGs=
+  version "1.10.8"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/selfsigned/-/selfsigned-1.10.8.tgz#0d17208b7d12c33f8eac85c41835f27fc3d81a30"
+  integrity sha1-DRcgi30Swz+OrIXEGDXyf8PYGjA=
   dependencies:
-    node-forge "0.9.0"
+    node-forge "^0.10.0"
 
 semver@^5.5.0:
   version "5.7.1"
@@ -2970,10 +2899,10 @@ send@0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
-serialize-javascript@^4.0.0:
-  version "4.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/serialize-javascript/-/serialize-javascript-4.0.0.tgz#b525e1238489a5ecfc42afacc3fe99e666f4b1aa"
-  integrity sha1-tSXhI4SJpez8Qq+sw/6Z5mb0sao=
+serialize-javascript@^5.0.1:
+  version "5.0.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/serialize-javascript/-/serialize-javascript-5.0.1.tgz#7886ec848049a462467a97d3d918ebb2aaf934f4"
+  integrity sha1-eIbshIBJpGJGepfT2Rjrsqr5NPQ=
   dependencies:
     randombytes "^2.1.0"
 
@@ -3105,7 +3034,7 @@ sockjs@0.3.20:
     uuid "^3.4.0"
     websocket-driver "0.6.5"
 
-source-list-map@^2.0.0, source-list-map@^2.0.1:
+source-list-map@^2.0.1:
   version "2.0.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
@@ -3121,7 +3050,7 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@~0.5.12:
+source-map-support@~0.5.19:
   version "0.5.19"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   integrity sha1-qYti+G3K9PZzmWSMCFKRq56P7WE=
@@ -3139,10 +3068,15 @@ source-map@^0.5.6:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
 
-source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
+source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0:
   version "0.6.1"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
+
+source-map@~0.7.2:
+  version "0.7.3"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
+  integrity sha1-UwL4FpAxc1ImVECS5kmB91F1A4M=
 
 spdy-transport@^3.0.0:
   version "3.0.0"
@@ -3181,13 +3115,6 @@ split@^1.0.1:
   dependencies:
     through "2"
 
-ssri@^8.0.0:
-  version "8.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ssri/-/ssri-8.0.0.tgz#79ca74e21f8ceaeddfcb4b90143c458b8d988808"
-  integrity sha1-ecp04h+M6u3fy0uQFDxFi42YiAg=
-  dependencies:
-    minipass "^3.1.1"
-
 static-extend@^0.1.1:
   version "0.1.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/static-extend/-/static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"
@@ -3211,20 +3138,20 @@ string-width@^3.0.0, string-width@^3.1.0:
     strip-ansi "^5.1.0"
 
 string.prototype.trimend@^1.0.1:
-  version "1.0.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/string.prototype.trimend/-/string.prototype.trimend-1.0.1.tgz#85812a6b847ac002270f5808146064c995fb6913"
-  integrity sha1-hYEqa4R6wAInD1gIFGBkyZX7aRM=
+  version "1.0.3"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/string.prototype.trimend/-/string.prototype.trimend-1.0.3.tgz#a22bd53cca5c7cf44d7c9d5c732118873d6cd18b"
+  integrity sha1-oivVPMpcfPRNfJ1ccyEYhz1s0Ys=
   dependencies:
+    call-bind "^1.0.0"
     define-properties "^1.1.3"
-    es-abstract "^1.17.5"
 
 string.prototype.trimstart@^1.0.1:
-  version "1.0.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/string.prototype.trimstart/-/string.prototype.trimstart-1.0.1.tgz#14af6d9f34b053f7cfc89b72f8f2ee14b9039a54"
-  integrity sha1-FK9tnzSwU/fPyJty+PLuFLkDmlQ=
+  version "1.0.3"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/string.prototype.trimstart/-/string.prototype.trimstart-1.0.3.tgz#9b4cb590e123bb36564401d59824298de50fd5aa"
+  integrity sha1-m0y1kOEjuzZWRAHVmCQpjeUP1ao=
   dependencies:
+    call-bind "^1.0.0"
     define-properties "^1.1.3"
-    es-abstract "^1.17.5"
 
 string_decoder@^1.1.1:
   version "1.3.0"
@@ -3274,9 +3201,9 @@ supports-color@^6.1.0:
     has-flag "^3.0.0"
 
 supports-color@^7.0.0:
-  version "7.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/supports-color/-/supports-color-7.1.0.tgz#68e32591df73e25ad1c4b49108a2ec507962bfd1"
-  integrity sha1-aOMlkd9z4lrRxLSRCKLsUHliv9E=
+  version "7.2.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
+  integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
   dependencies:
     has-flag "^4.0.0"
 
@@ -3285,46 +3212,31 @@ tapable@^1.0.0, tapable@^1.1.3:
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
   integrity sha1-ofzMBrWNth/XpF2i2kT186Pme6I=
 
-tapable@^2.0.0-beta.10:
-  version "2.0.0-beta.11"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/tapable/-/tapable-2.0.0-beta.11.tgz#5a6bd5e0353fad4da9e94942206bb596639e8cf7"
-  integrity sha1-WmvV4DU/rU2p6UlCIGu1lmOejPc=
+tapable@^2.0.0, tapable@^2.1.1:
+  version "2.1.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/tapable/-/tapable-2.1.1.tgz#b01cc1902d42a7bb30514e320ce21c456f72fd3f"
+  integrity sha1-sBzBkC1Cp7swUU4yDOIcRW9y/T8=
 
-tar@^6.0.2:
-  version "6.0.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/tar/-/tar-6.0.2.tgz#5df17813468a6264ff14f766886c622b84ae2f39"
-  integrity sha1-XfF4E0aKYmT/FPdmiGxiK4SuLzk=
+terser-webpack-plugin@^5.0.3:
+  version "5.0.3"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/terser-webpack-plugin/-/terser-webpack-plugin-5.0.3.tgz#ec60542db2421f45735c719d2e17dabfbb2e3e42"
+  integrity sha1-7GBULbJCH0VzXHGdLhfav7suPkI=
   dependencies:
-    chownr "^2.0.0"
-    fs-minipass "^2.0.0"
-    minipass "^3.0.0"
-    minizlib "^2.1.0"
-    mkdirp "^1.0.3"
-    yallist "^4.0.0"
-
-terser-webpack-plugin@^3.0.2:
-  version "3.1.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/terser-webpack-plugin/-/terser-webpack-plugin-3.1.0.tgz#91e6d39571460ed240c0cf69d295bcf30ebf98cb"
-  integrity sha1-kebTlXFGDtJAwM9p0pW88w6/mMs=
-  dependencies:
-    cacache "^15.0.5"
-    find-cache-dir "^3.3.1"
-    jest-worker "^26.2.1"
+    jest-worker "^26.6.1"
     p-limit "^3.0.2"
-    schema-utils "^2.6.6"
-    serialize-javascript "^4.0.0"
+    schema-utils "^3.0.0"
+    serialize-javascript "^5.0.1"
     source-map "^0.6.1"
-    terser "^4.8.0"
-    webpack-sources "^1.4.3"
+    terser "^5.3.8"
 
-terser@^4.8.0:
-  version "4.8.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
-  integrity sha1-YwVjQ9fHC7KfOvZlhlpG/gOg3xc=
+terser@^5.3.8:
+  version "5.5.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/terser/-/terser-5.5.1.tgz#540caa25139d6f496fdea056e414284886fb2289"
+  integrity sha1-VAyqJROdb0lv3qBW5BQoSIb7Iok=
   dependencies:
     commander "^2.20.0"
-    source-map "~0.6.1"
-    source-map-support "~0.5.12"
+    source-map "~0.7.2"
+    source-map-support "~0.5.19"
 
 throat@^4.0.0, throat@^4.1.0:
   version "4.1.0"
@@ -3379,9 +3291,9 @@ toidentifier@1.0.0:
   integrity sha1-fhvjRw8ed5SLxD2Uo8j013UrpVM=
 
 ts-loader@^8.0.2:
-  version "8.0.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ts-loader/-/ts-loader-8.0.2.tgz#ee73ca9350f745799396fff8578ba29b1e95616b"
-  integrity sha1-7nPKk1D3RXmTlv/4V4uimx6VYWs=
+  version "8.0.11"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/ts-loader/-/ts-loader-8.0.11.tgz#35d58a65932caacb120426eea59eca841786c899"
+  integrity sha1-NdWKZZMsqssSBCbupZ7KhBeGyJk=
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
@@ -3390,9 +3302,9 @@ ts-loader@^8.0.2:
     semver "^6.0.0"
 
 tslib@^1.9.0:
-  version "1.13.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
-  integrity sha1-yIHhPMcBWJTtkUhi0nZDb6mkcEM=
+  version "1.14.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
@@ -3408,9 +3320,9 @@ typescript@^3.9.7:
   integrity sha1-mNYApevcOPQMsndSLxLcgA6eJfo=
 
 uglify-js@^3.5.1:
-  version "3.10.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/uglify-js/-/uglify-js-3.10.1.tgz#dd14767eb7150de97f2573a5ff210db14fffe4ad"
-  integrity sha1-3RR2frcVDel/JXOl/yENsU//5K0=
+  version "3.12.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/uglify-js/-/uglify-js-3.12.1.tgz#78307f539f7b9ca5557babb186ea78ad30cc0375"
+  integrity sha1-eDB/U597nKVVe6uxhup4rTDMA3U=
 
 union-value@^1.0.0:
   version "1.0.1"
@@ -3421,20 +3333,6 @@ union-value@^1.0.0:
     get-value "^2.0.6"
     is-extendable "^0.1.1"
     set-value "^2.0.1"
-
-unique-filename@^1.1.1:
-  version "1.1.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/unique-filename/-/unique-filename-1.1.1.tgz#1d69769369ada0583103a1e6ae87681b56573230"
-  integrity sha1-HWl2k2mtoFgxA6HmrodoG1ZXMjA=
-  dependencies:
-    unique-slug "^2.0.0"
-
-unique-slug@^2.0.0:
-  version "2.0.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/unique-slug/-/unique-slug-2.0.2.tgz#baabce91083fc64e945b0f3ad613e264f7cd4e6c"
-  integrity sha1-uqvOkQg/xk6UWw861hPiZPfNTmw=
-  dependencies:
-    imurmurhash "^0.1.4"
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
@@ -3460,9 +3358,9 @@ upper-case@^1.1.1:
   integrity sha1-9rRQHC7EzdJrp4vnIilh3ndiFZg=
 
 uri-js@^4.2.2:
-  version "4.2.2"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
-  integrity sha1-lMVA4f93KVbiKZUHwBCupsiDjrA=
+  version "4.4.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/uri-js/-/uri-js-4.4.0.tgz#aa714261de793e8a82347a7bcc9ce74e86f28602"
+  integrity sha1-qnFCYd55PoqCNHp7zJznTobyhgI=
   dependencies:
     punycode "^2.1.0"
 
@@ -3505,7 +3403,7 @@ util.promisify@1.0.0:
     define-properties "^1.1.2"
     object.getownpropertydescriptors "^2.0.3"
 
-utila@^0.4.0, utila@~0.4:
+utila@~0.4:
   version "0.4.0"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/utila/-/utila-0.4.0.tgz#8a16a05d445657a3aea5eecc5b12a4fa5379772c"
   integrity sha1-ihagXURWV6Oupe7MWxKk+lN5dyw=
@@ -3521,19 +3419,19 @@ uuid@^3.3.2, uuid@^3.4.0:
   integrity sha1-sj5DWK+oogL+ehAK8fX4g/AgB+4=
 
 v8-compile-cache@^2.1.1:
-  version "2.1.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/v8-compile-cache/-/v8-compile-cache-2.1.1.tgz#54bc3cdd43317bca91e35dcaf305b1a7237de745"
-  integrity sha1-VLw83UMxe8qR413K8wWxpyN950U=
+  version "2.2.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/v8-compile-cache/-/v8-compile-cache-2.2.0.tgz#9471efa3ef9128d2f7c6a7ca39c4dd6b5055b132"
+  integrity sha1-lHHvo++RKNL3xqfKOcTda1BVsTI=
 
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-watchpack@2.0.0-beta.14:
-  version "2.0.0-beta.14"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/watchpack/-/watchpack-2.0.0-beta.14.tgz#6135804571e4bc6792d44e4df6a97f07e7d40272"
-  integrity sha1-YTWARXHkvGeS1E5N9ql/B+fUAnI=
+watchpack@^2.0.0:
+  version "2.0.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/watchpack/-/watchpack-2.0.1.tgz#2f2192c542c82a3bcde76acd3411470c120426a8"
+  integrity sha1-LyGSxULIKjvN52rNNBFHDBIEJqg=
   dependencies:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
@@ -3620,26 +3518,17 @@ webpack-log@^2.0.0:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
 
-webpack-sources@2.0.0-beta.8:
-  version "2.0.0-beta.8"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/webpack-sources/-/webpack-sources-2.0.0-beta.8.tgz#0fc292239f6767cf4e9b47becfaa340ce6d7ea4f"
-  integrity sha1-D8KSI59nZ89Om0e+z6o0DObX6k8=
+webpack-sources@^2.1.1:
+  version "2.2.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/webpack-sources/-/webpack-sources-2.2.0.tgz#058926f39e3d443193b6c31547229806ffd02bac"
+  integrity sha1-BYkm8549RDGTtsMVRyKYBv/QK6w=
   dependencies:
     source-list-map "^2.0.1"
-    source-map "~0.6.1"
+    source-map "^0.6.1"
 
-webpack-sources@^1.4.3:
-  version "1.4.3"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
-  integrity sha1-7t2OwLko+/HL/plOItLYkPMwqTM=
-  dependencies:
-    source-list-map "^2.0.0"
-    source-map "~0.6.1"
-
-webpack@5.0.0-beta.25:
-  version "5.0.0-beta.25"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/webpack/-/webpack-5.0.0-beta.25.tgz#97960e086efaed5f8693ea783cc3c56843693acb"
-  integrity sha1-l5YOCG767V+Gk+p4PMPFaENpOss=
+"webpack@https://github.com/jakenorthey/webpack#feat/prioritize-eager-shared-module-dependencies":
+  version "5.9.0"
+  resolved "https://github.com/jakenorthey/webpack#1d9b77c060f1d2707e451ae8ee830ada6ccce68c"
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.45"
@@ -3647,23 +3536,24 @@ webpack@5.0.0-beta.25:
     "@webassemblyjs/helper-module-context" "1.9.0"
     "@webassemblyjs/wasm-edit" "1.9.0"
     "@webassemblyjs/wasm-parser" "1.9.0"
-    acorn "^7.3.0"
+    acorn "^8.0.4"
+    browserslist "^4.14.5"
     chrome-trace-event "^1.0.2"
-    enhanced-resolve "5.0.0-beta.10"
-    eslint-scope "^5.0.0"
-    events "^3.0.0"
+    enhanced-resolve "^5.3.1"
+    eslint-scope "^5.1.1"
+    events "^3.2.0"
     glob-to-regexp "^0.4.1"
-    graceful-fs "^4.1.15"
+    graceful-fs "^4.2.4"
     json-parse-better-errors "^1.0.2"
-    loader-runner "^4.0.0"
-    mime-types "^2.1.26"
-    neo-async "^2.6.1"
-    pkg-dir "^4.2.0"
-    schema-utils "^2.5.0"
-    tapable "^2.0.0-beta.10"
-    terser-webpack-plugin "^3.0.2"
-    watchpack "2.0.0-beta.14"
-    webpack-sources "2.0.0-beta.8"
+    loader-runner "^4.1.0"
+    mime-types "^2.1.27"
+    neo-async "^2.6.2"
+    pkg-dir "^5.0.0"
+    schema-utils "^3.0.0"
+    tapable "^2.1.1"
+    terser-webpack-plugin "^5.0.3"
+    watchpack "^2.0.0"
+    webpack-sources "^2.1.1"
 
 websocket-driver@0.6.5:
   version "0.6.5"
@@ -3727,9 +3617,9 @@ ws@^6.2.1:
     async-limiter "~1.0.0"
 
 wsrun@^5.2.1:
-  version "5.2.1"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/wsrun/-/wsrun-5.2.1.tgz#c6b75947d7381100feeb111b32ab1b6ff532d624"
-  integrity sha1-xrdZR9c4EQD+6xEbMqsbb/Uy1iQ=
+  version "5.2.4"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/wsrun/-/wsrun-5.2.4.tgz#6eb6c3ccd3327721a8df073a5e3578fb0dea494e"
+  integrity sha1-brbDzNMydyGo3wc6XjV4+w3qSU4=
   dependencies:
     bluebird "^3.5.1"
     chalk "^2.3.0"
@@ -3742,14 +3632,9 @@ wsrun@^5.2.1:
     yargs "^13.0.0"
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha1-le+U+F7MgdAHwmThkKEg8KPIVms=
-
-yallist@^4.0.0:
-  version "4.0.0"
-  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
-  integrity sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
+  version "4.0.1"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha1-jbK4PDHF11CZu4kLI/MJSJHiR9Q=
 
 yargs-parser@^13.1.2:
   version "13.1.2"
@@ -3774,3 +3659,8 @@ yargs@^13.0.0, yargs@^13.3.2:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
+
+yocto-queue@^0.1.0:
+  version "0.1.0"
+  resolved "https://logrhythm.jfrog.io/logrhythm/api/npm/npm-virtual/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
+  integrity sha1-ApTrPe4FAo0x7hpfosVWpqrxChs=

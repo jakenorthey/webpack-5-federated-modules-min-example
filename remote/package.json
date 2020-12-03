@@ -1,5 +1,5 @@
 {
-  "name": "remote",
+  "name": "dashboard",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --config ./webpack.mfe.js --mode development",

@@ -1,6 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ContainerPlugin = require('webpack/lib/container/ContainerPlugin')
+const SharePlugin = require('webpack/lib/sharing/SharePlugin')
 module.exports = {
   entry: {
     main: './src/index.tsx', 
@@ -36,14 +37,17 @@ module.exports = {
       template: 'index.html'
     }),
     new ContainerPlugin({
-      name: 'remote',
-      library: { type: 'var', name: 'remote' },
+      name: 'dashboard',
+      library: { type: 'var', name: 'dashboard' },
       filename: 'remoteEntry.js',
       exposes: {'./spa': './src/spa'},
-      /*shared: {
+    }),
+    new SharePlugin({
+      shared: {
         react: {},
         'react-dom': {},
-      },*/
+      },
+      shareScope: 'default',
     }),
   ],
   devServer: {

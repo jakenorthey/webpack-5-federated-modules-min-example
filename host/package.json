@@ -1,7 +1,8 @@
 {
-  "name": "host",
+  "name": "appshell",
   "version": "1.0.0",
   "scripts": {
+    "build": "webpack --config ./webpack.mfe.js --mode development",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack.mfe.js --port 1111"
   }
 }
