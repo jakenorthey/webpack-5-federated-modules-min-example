@@ -1,3 +1,4 @@
 node_modules
 remote/dist
 yarn-error.log
+host/dist
